@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >0.8.0;
 
 import './interfaces/IUniswapV2ERC20.sol';
@@ -94,7 +95,7 @@ contract UniswapV2ERC20 is IUniswapV2ERC20 {
         return true;
     }
 
-    function transfer(address to, uint value) external  virtual returns (bool) {
+    function transfer(address to, uint value) external virtual returns (bool) {
         _transfer(msg.sender, to, value);
         return true;
     }
