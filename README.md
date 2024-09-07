@@ -1,7 +1,7 @@
 # Uniswap V2 Core – Compatibility Layer
 
 ## Overview
-This repository contains a fork of the [Uniswap V2 Core](https://github.com/Uniswap/uniswap-v2-core) protocol, designed to ensure compatibility with the latest Solidity versions. The primary focus of this fork is to facilitate interaction and integration testing with external smart contracts, while avoiding any modifications to the core logic of Uniswap V2, aside from necessary adjustments for Solidity compiler compatibility.
+This repository contains a fork of the [Uniswap V2 Core](https://github.com/Uniswap/v2-core) protocol, designed to ensure compatibility with the latest Solidity versions. The primary focus of this fork is to facilitate interaction and integration testing with external smart contracts, while avoiding any modifications to the core logic of Uniswap V2, aside from necessary adjustments for Solidity compiler compatibility.
 
 ## Purpose
 This compatibility layer has been created with two goals in mind:
@@ -66,7 +66,7 @@ To use this compatibility layer for testing or integrating external projects:
 
 ### 1. Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/compatibility-layers/uniswap/v2-core.git
+git clone https://github.com/vale-dinap/uniswap-v2-core.git
 ```
 
 ### 2. Install Dependencies:
@@ -91,4 +91,4 @@ forge test
 Contributions are welcome, especially if they help to further improve compatibility or testing capabilities. Please open an issue or a pull request if you encounter bugs, or if you have suggestions for improvements.
 
 ## License
-This project is licensed under the same terms as the original Uniswap V2 Core, which is available under the GPL-3.0 License.
+This project is licensed under the same terms as the original Uniswap V2 Core, which is available under the GPL-3.0 License. All rights to the original Uniswap V2 Core code remain with [Uniswap Labs](https://uniswap.org/).
